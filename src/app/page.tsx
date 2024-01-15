@@ -1,3 +1,4 @@
+'use client'
 import SkillCard from "./components/SkillCard";
 import { FaLaptopCode, FaGoogle } from "react-icons/fa6";
 import { CiDatabase } from "react-icons/ci";
@@ -88,8 +89,14 @@ export default function Home() {
           <BrandIcons brandIcon={FaDropbox()} brandName="Dropbox" />
           <BrandIcons brandIcon={FaSpotify()} brandName="Spotify" />
         </div>
-        <div>
-          <Slider />
+        <div className="w-full ">
+          <Slider
+            images={[
+              "https://themes.3rdwavemedia.com/instance/bs5/2.2/assets/images/profile.jpg",
+              "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+              "https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/awesome-solitude-bess-hamiti.jpg",
+            ]}
+          />
         </div>
       </div>
     </div>

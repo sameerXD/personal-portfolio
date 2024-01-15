@@ -51,7 +51,7 @@ const Header = () => {
         <div
           className={`md:static absolute  md:min-h-fit min-h-[60vh] left-0 ${
             toggle ? "top-[6%]" : "top-[-100%]"
-          }  md:w-auto w-full bg-blue-500 flex items-center px-5 duration-500`}
+          }  md:w-auto w-full bg-blue-500 flex items-center px-5 duration-300`}
         >
           <HoverNavLink>
             <p className="text-lg text-white">ABOUT</p>
